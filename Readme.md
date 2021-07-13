@@ -77,6 +77,12 @@ $apt-get install pyqt5-dev-tools
 $pip install -r requirements/requirements-linux-python3.txt
 
 ```
+install qt binary and run
+
+```
+pyrcc5 -o libs/resources.py resources.qrc
+
+```
 
 run the labelImg
 
